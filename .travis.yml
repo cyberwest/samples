@@ -9,6 +9,11 @@ branches:
   only:
     - gh-pages
 
+addons:
+  apt:
+  packages:
+    - libstdc++6
+
 env:
   global:
     - DISPLAY=:99.0
