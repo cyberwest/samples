@@ -13,8 +13,8 @@ branches:
 addons:
   apt:
     packages:
-      - gcc-4.9
-      - g++-4.9
+      - gcc
+      - g++
       - libstdc++6
       - pulseaudio
 
