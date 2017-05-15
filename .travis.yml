@@ -11,8 +11,12 @@ branches:
 
 addons:
   apt:
-  packages:
-    - libstdc++6
+    sources:
+      ppa:ubuntu-toolchain-r/test
+    packages:
+      - gcc-4.9
+      - g++-4.9
+      - libstdc++6
 
 env:
   global:
