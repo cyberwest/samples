@@ -36,7 +36,7 @@
     "pem": "^1.9.4",
     "webrtc-utilities": "^1.0.0",
     "chromedriver": "2.27",
-    "geckodriver": "0.14.0",
+    "geckodriver": "1.4.0",
     "selenium-webdriver": "3.0.1"
   }
 }
