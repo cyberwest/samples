@@ -35,8 +35,5 @@
     "grunt-htmlhint": ">=0.9.12",
     "pem": "^1.9.4",
     "webrtc-utilities": "^1.0.0",
-    "chromedriver": "2.29",
-    "geckodriver": "1.6.1",
-    "selenium-webdriver": "3.4.0"
   }
 }
