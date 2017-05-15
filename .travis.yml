@@ -33,7 +33,7 @@ before_script:
   - npm install
   - export DISPLAY=:99.0
   - /sbin/start-stop-daemon --start --quiet --pidfile /tmp/cucumber_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1600x1400x16
-  - apt-get install libstdc++6
+  - sudo apt-get install libstdc++6
 
 script:
   - npm test
